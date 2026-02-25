@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cúlinaria Japonesa</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="body">
     <header>
         <a href="#historia">História</a>
         <a href="#pratos">Pratos</a>
@@ -14,38 +18,43 @@
     </header>
 
     <section>
-        <h1>Cúlinaria Japonesa</h1>
-        <p>A comida japonesa foi reconhecida pela Unesco como Patrimônio Cultural Intangível, sendo um dos grandes 
-            símbolos da cultura japonesa. A cozinha nacional do país, conhecida como 和食, washoku, é composta por 
-            décadas de tradições e mudanças históricas.
-        </p>
+        <div class="banner">
+            <img class="imgbanner" src="img/banner.png" alt="">
+            <div class="txtbanner">
+                 <h1 class="titulos">Cúlinaria Japonesa</h1>
+                <p>A comida japonesa foi reconhecida pela Unesco como Patrimônio Cultural Intangível, sendo um dos grandes 
+                    símbolos da cultura japonesa. A cozinha nacional do país, conhecida como 和食, washoku, é composta por 
+                    décadas de tradições e mudanças históricas.
+                </p>
+            </div>
+        </div>
     </section>
 
-    <section>
-        <div class="container text-center">
+    <section id="historia" class="sechis">
+        <div class="container divhis">
             <div class="row">
-              <div class="col">
-                <h1>Conheça um pouco da história...</h1>
+              <div class="col-8 textohis">
+                <h1 class="titulos">Conheça um pouco da história...</h1>
                 <p>Na história japonesa, o arroz e o peixe eram vistos, inicialmente, como um prato consumido pela população de classe média e baixa. Outras proteínas animais, como o porco e o boi, eram exclusivos da elite, que tinha o capital para a importação de alimentos exóticos. 
                     Com a introdução do budismo no país asiático durante o período Kofun em 675 a.C, o Imperador Temmu impulsionou mudanças nos hábitos alimentares da população. O consumo de diversos tipos de carne, incluindo carne de gado, cavalo, cachorro, macaco ou frango, em qualquer época do 4º ao 9º mês do ano foi condenado à morte. 
                     Já em 752 a.C, a Imperatriz Koken deu um passo além e proibiu toda pesca no país, o que impulsionou uma maior produção de arroz e outros alimentos de origem vegetal. 
                     A carne retornou à comida japonesa à medida que a China, a Coreia e outros países influenciaram um pouco menos o Japão.
                 </p>
               </div>
-              <div class="col">
-                <img src="" alt="">
+              <div class="col-4">
+                <img class="imghis" src="img/ramen.png" alt="">
               </div>
             </div>
           </div>
     </section>
 
-    <section>
+    <section id="pratos">
         <h1>Principais pratos</h1>
         <div class="container text-center">
             <div class="row">
               <div class="col">
                 <img src="" alt="">
-                <h3>Yakitori “焼き鳥”</h3>
+                <h4>Yakitori “焼き鳥”</h4>
                 <p>O Yakitori são pedaços de frango e miudezas, colocados em um espeto e grelhados na brasa de carvão vegetal.</p>
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Ver receita
@@ -53,7 +62,7 @@
               </div>
               <div class="col">
                 <img src="" alt="">
-                <h3>Sukiyaki “すき焼き”</h3>
+                <h4>Sukiyaki “すき焼き”</h4>
                 <p>O Sukiyaki é uma espécie de ensopado com carne em fatias finas, legumes e verduras, cozidos numa panela rasa de ferro.</p>
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Ver receita
@@ -61,7 +70,7 @@
               </div>
               <div class="col">
                 <img src="" alt="">
-                <h3>Ramen “ラーメン”</h3>
+                <h4>Ramen “ラーメン”</h4>
                 <p>O Ramen é uma suculenta sopa de macarrão com muitos ingredientes como pedaços de carne e legumes.</p>
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Ver receita
@@ -69,8 +78,45 @@
               </div>
               <div class="col">
                 <img src="" alt="">
-                <h3>Okonomiyaki “お好み焼き”</h3>
+                <h4>Okonomiyaki “お好み焼き”</h4>
                 <p>O Okonomiyaki é uma espécie de panqueca contendo uma variedade de ingredientes.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Ver receita
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <img src="" alt="">
+                <h4>Sushi “寿司”</h4>
+                <p>O Sushi tem como principais ingredientes arroz cozido e temperado, peixe cru no recheio ou cobertura ou enrolado em nori.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Ver receita
+                </button>
+              </div>
+              <div class="col">
+                <img src="" alt="">
+                <h4>Yakiniku “焼 肉”</h4>
+                <p>O Yakiniku significa “carne grelhada” e é assim como é chamado o famoso e popular churrasco japonês.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Ver receita
+                </button>
+              </div>
+              <div class="col">
+                <img src="" alt="">
+                <h4>Yakisoba “焼きそば”</h4>
+                <p>O Yakisoba consiste em fritar o macarrão com pedaços de carne de frango e bovina, juntamente com uma variedade de legumes.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Ver receita
+                </button>
+              </div>
+              <div class="col">
+                <img src="" alt="">
+                <h4>Tempura “天ぷら”</h4>
+                <p>O Tempura consiste em tiras bem finas de legumes, vegetais e frutos do mar misturados a uma massa bem fina e fritos.</p>
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Ver receita
                 </button>
@@ -79,9 +125,126 @@
           </div>
     </section>
 
+    <section>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h1>Shari</h1>
+                    <p>Aprenda a fazer o arroz temperado para sushi</p>
+                </div>
+                <hr style="transform: rotate(90deg); width: 200px;">
+                <div class="col">
+                    <h1>Conheça mais um puco sobre os nomes dos pratos</h1>
+                    <p>Acesse um guia básico da culinária japonesa para você dominar o cardápio</p>
+                    <a href="https://gastronomiacarioca.zonasul.com.br/guia-basico-culinaria-japonesa/" target="_blank">Acessar guia</a>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curiosidades">
+        <h1>Curiosidades</h1>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <img src="" alt="">
+                </div>
+                <div class="col">
+                    <h3>1. Patrimônio cultural da humanidade</h3>
+                    <hr>
+                    <p>A culinária japonesa tradicional, conhecida como “Washoku”, é uma das duas 
+                        únicas tradições gastronômicas reconhecidas pela ONU como Patrimônio 
+                        Imaterial Cultural. A cozinha francesa é a outra homenageada.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h3>2. Combate o envelhecimento</h3>
+                    <hr>
+                    <p>O consumo de carne de peixe, a base do cardápio japonês, aumenta os níveis de ômega 3 no organismo. 
+                        Além de combater alergias e processos inflamatórios, ajuda a diminuir os níveis de triglicerídeos e 
+                        colesterol ruim enquanto aumenta os níveis do colesterol bom.</p>
+                </div>
+                <div class="col">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <img src="" alt="">
+                </div>
+                <div class="col">
+                    <h3>3. Bebida milenar</h3>
+                    <hr>
+                    <p>O chá, especialmente o chá verde, está presente em praticamente todas as refeições e é 
+                        servido gratuitamente em muitos restaurantes. Além de fazer parte das tradições culturais 
+                        milenares como o Chado (Cerimônia do Chá), a bebida contribui para a digestão e proporciona 
+                        outros benefícios para a saúde.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h3>4. Wasabi ajuda na digestão</h3>
+                    <hr>
+                    <p>Você sabia que Wasabi ajuda no processo digestivo e é altamente bactericida? Pois é, ela é rica 
+                        em potássio, cálcio, magnésio, fósforo e oferece benefícios à saúde por apresentar 
+                        propriedades antibióticas.</p>
+                </div>
+                <div class="col">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <img src="" alt="">
+                </div>
+                <div class="col">
+                    <h3>5. Arte comestível</h3>
+                    <hr>
+                    <p>Cada detalhe da cozinha japonesa é muito bem pensado, por isso, ela é considerada uma verdadeira arte. Um exemplo são os wagashi, 
+                        doces tradicionais da confeitaria japonesa.Os wagashi representam a essência e o refinamento desse tipo de cozinha. A 
+                        beleza dos doces foi um chamariz para que expandissem seus horizontes e fossem conhecidos pelo resto do mundo.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h3>6. Missô combate os efeitos da radiação</h3>
+                    <hr>
+                    <p>Em 1945, milhares de pessoas morreram com as bombas atômicas lançadas sobre Hiroshima e Nagasaki. Mesmo assim, muitos 
+                        médicos e enfermeiros que ajudaram os sobreviventes não sofreram os mesmos efeitos da radiação. Uma possível 
+                        explicação está no consumo tradicional de missô, usado no missoshiro. Estudos indicam que substâncias presentes 
+                        no missô ajudam a proteger as células contra danos causados pela radiação. Após o acidente de Chernobyl, o alimento 
+                        chegou a ser exportado para a Rússia como forma de prevenção.</p>
+                </div>
+                <div class="col">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
 
     <footer>
-
+        Cúlinaria Japonesa
+        Feito por: Gabriely Santos
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <!-- Modal -->
@@ -97,7 +260,6 @@
             </div>
             <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
             </div>
         </div>
         </div>

@@ -1,0 +1,60 @@
+.body{
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    text-align: center;
+    padding: 40px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+.titulos{
+    font-weight: 700;
+}
+
+/* section banner */
+.banner{
+    position: relative;
+}
+.imgbanner{
+    width: 100%;
+    opacity: 0.5;
+}
+.txtbanner{
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* section história */
+.sechis{
+    padding-top: 150px;
+}
+.divhis{
+    background-color: rgba(113, 23, 23, 1);
+    text-align: left;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 40px !important;
+}
+.imghis{
+    width: 100%;
+}
+.textohis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+
+
+
+

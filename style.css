@@ -54,7 +54,33 @@ header a{
     justify-content: center;  
 }
 
+/* section pratos */
+.secpratos{
+    padding-top: 150px;
+}
+.divpratos{
+    padding-top: 50px;
+}
+.imgpratos{
+    border-radius: 10px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+.btnreceita{
+    background-color: rgba(113, 23, 23, 1) !important;
+    border: rgba(113, 23, 23, 1) !important;
+    border-radius: 20px !important;
+}
 
-
-
-
+.modal-header{
+    background-color: rgba(113, 23, 23, 1);
+}
+.modal-content{
+    color: white !important;
+}
+.modal-body{
+    background-color: rgba(39, 39, 39, 1);
+}
+.modal-footer{
+    background-color: rgba(39, 39, 39, 1) !important;
+}

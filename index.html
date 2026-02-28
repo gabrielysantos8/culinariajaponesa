@@ -64,7 +64,7 @@
                 <img class="imgpratos" src="img/sukiyaki.png" alt="">
                 <h4 class="titulos">Sukiyaki “すき焼き”</h4>
                 <p>O Sukiyaki é uma espécie de ensopado com carne em fatias finas, legumes e verduras, cozidos numa panela rasa.</p>
-                <button type="button" class="btn btn-primary btnreceita" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-primary btnreceita" data-bs-toggle="modal" data-bs-target="#receitaSukiyaki">
                     Ver receita
                 </button>
               </div>
@@ -72,7 +72,7 @@
                 <img class="imgpratos" src="img/ramen2.png" alt="">
                 <h4 class="titulos">Ramen “ラーメン”</h4>
                 <p>O Ramen é uma suculenta sopa de macarrão com muitos ingredientes como pedaços de carne e legumes. Ele é consumido bem quente.</p>
-                <button type="button" class="btn btn-primary btnreceita" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-primary btnreceita" data-bs-toggle="modal" data-bs-target="#receitaRamen">
                     Ver receita
                 </button>
               </div>
@@ -80,7 +80,7 @@
                 <img class="imgpratos" src="img/okonomiyaki.png" alt="">
                 <h4 class="titulos">Okonomiyaki “お好み焼き”</h4>
                 <p>O Okonomiyaki é uma espécie de panqueca contendo uma variedade de ingredientes.</p>
-                <button type="button" class="btn btn-primary btnreceita" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-primary btnreceita" data-bs-toggle="modal" data-bs-target="#receitaOkonomiyaki">
                     Ver receita
                 </button>
               </div>
@@ -93,7 +93,7 @@
                 <img class="imgpratos" src="img/sushi.png" alt="">
                 <h4 class="titulos">Sushi “寿司”</h4>
                 <p>O Sushi tem como principais ingredientes arroz cozido e temperado, peixe cru no recheio ou cobertura ou enrolado em nori.</p>
-                <button type="button" class="btn btn-primary btnreceita" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-primary btnreceita" data-bs-toggle="modal" data-bs-target="#receitaSushi">
                     Ver receita
                 </button>
               </div>
@@ -101,7 +101,7 @@
                 <img class="imgpratos" src="img/yakiniku.png" alt="">
                 <h4 class="titulos">Yakiniku “焼 肉”</h4>
                 <p>O Yakiniku significa “carne grelhada” e é assim como é chamado o famoso e popular churrasco japonês. Consumido com molho tarê</p>
-                <button type="button" class="btn btn-primary btnreceita" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-primary btnreceita" data-bs-toggle="modal" data-bs-target="#receitaYakiniku">
                     Ver receita
                 </button>
               </div>
@@ -109,7 +109,7 @@
                 <img class="imgpratos" src="img/yakisoba.png" alt="">
                 <h4 class="titulos">Yakisoba “焼きそば”</h4>
                 <p>O Yakisoba consiste em fritar o macarrão com pedaços de carne de frango e bovina, juntamente com uma variedade de legumes.</p>
-                <button type="button" class="btn btn-primary btnreceita" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-primary btnreceita" data-bs-toggle="modal" data-bs-target="#receitaYakisoba">
                     Ver receita
                 </button>
               </div>
@@ -117,7 +117,7 @@
                 <img class="imgpratos" src="img/tempura.png" alt="">
                 <h4 class="titulos">Tempura “天ぷら”</h4>
                 <p>O Tempura consiste em tiras bem finas de legumes, vegetais e frutos do mar misturados a uma massa bem fina e fritos.</p>
-                <button type="button" class="btn btn-primary btnreceita" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-primary btnreceita" data-bs-toggle="modal" data-bs-target="#receitaTempura">
                     Ver receita
                 </button>
               </div>
@@ -249,23 +249,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     
     <!-- Modais -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-            ...
-            </div>
-            <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-        </div>
-    </div>
-
     <div class="modal fade" id="receitaYakitori" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -275,22 +258,305 @@
                 </div>
                 <div class="modal-body">
                     <h5>Ingredientes</h5>
-                    <p>- 1 kg de peito de frango <br>- 1 cebola roxa <br>- 2 pimentões amarelos <br>- 270ml de shoyu <br>- 200ml de mirin <br>
-                    - 6 colheres de sopa de açúcar <br>- 2 colheres de sopa de saquê culinário <br>- 2 dentes de alho amassados <br>- 2 colheres de sopa de gengibre ralado <br>
-                    - aproximadamente 20 espetinhos de madeira para churrasquinho</p>
+                    <p>- 1 kg de peito de frango <br>
+                        - 1 cebola roxa <br>
+                        - 2 pimentões amarelos <br>
+                        - 270ml de shoyu <br>
+                        - 200ml de mirin <br>
+                        - 6 colheres de sopa de açúcar <br>
+                        - 2 colheres de sopa de saquê culinário <br>
+                        - 2 dentes de alho amassados <br>
+                        - 2 colheres de sopa de gengibre ralado <br>
+                        - aproximadamente 20 espetinhos de madeira para churrasquinho
+                    </p>
+
                     <h5>Modo de Preparo</h5>
-                    <p>1) Coloque os espetinhos de madeira de molho em água (para evitar que queimem no preparo).</p>
-                    <p>2) Prepare o molho para teriyaki misturando o shoyu, mirin, açúcar, saquê, alho e gengibre.</p>
-                    <p>3) Coe o molho e reserve.</p>
-                    <p>4) Corte o peito de frango em cubos de aproximadamente 3cm. Se você usar shoyu light, prove o molho e, se desejar, tempere o frango levemente com sal.</p>
-                    <p>5) Coloque os cubos de frango para marinar no molho por pelo menos 20min.</p>
-                    <p>6) Corte a cebola em pétalas mais ou menos do mesmo tamanho dos cubos de frango.</p>
-                    <p>7) Corte o pimentão em pedaços de tamanho parecido com os dos cubos de frango.</p>
-                    <p>8) Prepare os espetinhos alternando o frango, o pimentão e a cebola. Reserve.</p>
-                    <p>9) Coe novamente o molho e reduza a 2/3 do seu volume numa panela com fogo bem baixo.</p>
-                    <p>10) Coloque um pouco de óleo na frigideira e grelhe os espetinhos de frango. Pincele com o molho para teriyaki por umas 3 ou 4 vezes.</p>
-                    <p>11) Antes de colocar novos espetinhos para grelhar, limpe a frigideira para evitar que o molho fique com gosto de queimado.</p>
+                    <p>1. Coloque os espetinhos de madeira de molho em água (para evitar que queimem no preparo).</p>
+                    <p>2. Prepare o molho para teriyaki misturando o shoyu, mirin, açúcar, saquê, alho e gengibre.</p>
+                    <p>3. Coe o molho e reserve.</p>
+                    <p>4. Corte o peito de frango em cubos de aproximadamente 3cm. Se você usar shoyu light, prove o molho e, se desejar, tempere o frango levemente com sal.</p>
+                    <p>5. Coloque os cubos de frango para marinar no molho por pelo menos 20min.</p>
+                    <p>6. Corte a cebola em pétalas mais ou menos do mesmo tamanho dos cubos de frango.</p>
+                    <p>7. Corte o pimentão em pedaços de tamanho parecido com os dos cubos de frango.</p>
+                    <p>8. Prepare os espetinhos alternando o frango, o pimentão e a cebola. Reserve.</p>
+                    <p>9. Coe novamente o molho e reduza a 2/3 do seu volume numa panela com fogo bem baixo.</p>
+                    <p>10. Coloque um pouco de óleo na frigideira e grelhe os espetinhos de frango. Pincele com o molho para teriyaki por umas 3 ou 4 vezes.</p>
+                    <p>11. Antes de colocar novos espetinhos para grelhar, limpe a frigideira para evitar que o molho fique com gosto de queimado.</p>
                 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btnreceita" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="receitaSukiyaki" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 titulos" id="exampleModalLabel">Sukiyaki</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5>Ingredientes</h5>
+                    <p><strong>Base</strong><br>
+                        - 500g de contrafilé ou alcatra em tirinhas finas <br>
+                        - 2 xícaras (chá) de água<br>
+                        - 170g de macarrão para lámen <br>
+                        - 1 tofu em cubos (500g) <br>
+                        - 2 cenouras em rodelas finas <br>
+                        - 1 cebola em rodelas <br>
+                        - 400g de shitake em tirinhas <br>
+                        - 8 folhas de acelga em pedaços grandes <br>
+                        - 1 maço de cebolinha-verde em pedaços grandes <br>
+                        - 250g de kamaboku cortado na diagonal (opcional) <br>
+                        - 1 pacote de broto de feijão (250g) (moyashi)
+                    </p>
+                    <p><strong>Molho</strong><br>
+                        - 4 colheres (sopa) de açúcar <br>
+                        - 1 xícara (chá) de saquê <br>
+                        - 1 xícara (chá) de molho de soja (shoyu) <br>
+                        - 1 xícara (chá) de água
+                    </p>
+
+                    <h5>Modo de Preparo</h5>
+                    <p><Strong>Base</Strong><br>1. Em um recipiente, tempere a carne e reserve.</p>
+                    <p>2. Em uma panela, ferva a água e cozinhe o macarrão para lámen. Retire do fogo e escorra.</p>
+                    <p>3. Em um prato grande, distribua todos os ingredientes cortados, formando um arranjo decorativo e leve à mesa.</p>
+                    <p><Strong>Molho</Strong><br> 4. Em uma panela, coloque o açúcar com o saquê, o shoyu, e a água e leve ao fogo até ferver. Reserve.</p>
+                    <p><strong>Montagem</strong><br>5. Acomode uma frigideira elétrica na mesa onde irá servir o Sukiyaki.</p>
+                    <p>6. Aqueça a frigideira e derreta a manteiga. Junte a carne e deixe dourar.</p>
+                    <p>7. Coloque metade do molho e um pouco dos ingredientes, começando pela cenoura e pela cebola, pois demoram mais para cozinhar.</p>
+                    <p>8. As pessoas se servem dos ingredientes que preferirem, assim que estiverem cozidos.</p>
+                    <p>9. Acrescente mais ingredientes e mais molho à frigideira à medida que vão sendo consumidos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btnreceita" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="receitaRamen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 titulos" id="exampleModalLabel">Ramen</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5>Ingredientes</h5>
+                    <p>- 2 litros de água <br>
+                        - 3 tabletes de caldo de galinha <br>
+                        - 1/2 xícara (chá) ou 100ml de caldo de carne de porco <br>
+                        - 4 colheres (sopa) de molho shoyu <br>
+                        - 600g de macarrão (ideal o chinês para ramen, ou alguma massa mais fina, como cabelo de anjo) <br>
+                        - lombo de porco cozido fatiado <br>
+                        - 2 colheres (chá) de pó de kombucha (opcional) <br>
+                        - broto de bambu em conserva (menmas) a gosto (opcional) <br>
+                        - kamaboko (massa de peixe) em fatias a gosto (opcional) <br>
+                        - ovos cozidos cortados ao meio, quantidade a gosto (opcional) <br>
+                        - sal a gosto
+                    </p>
+
+                    <h5>Modo de preparo</h5>
+                    <p>1. Ferva a água em uma panela grande e acrescente o caldo de galinha, o molho de carne de porco, o shoyu, o pó de kombucha e o sal.</p>
+                    <p>2. Em seguida, ferva novamente, abaixe o fogo ao máximo possível e prepare o macarrão.</p>
+                    <p>3. Em uma panela separada, coloque uma quantia grande de água ferver e acrescente o macarrão.</p>
+                    <p>4. Apenas cuide para não ficar muito mole, retire e escoe.</p>
+                    <p>5. Divida então o macarrão em 4 tigelas grandes previamente aquecidas.</p>
+                    <p>6. Em seguida, cubra o macarrão com a sopa (as tigelas são grandes, mas, caso queira, é só por em pratos convencionais em uma quantia menor).</p>
+                    <p>7. Em cada tigela acrescente a metade ou 2 de ovo cozido e o broto de bambu em conserva, procurando pô-los delicadamente no centro da tigela.</p>
+                    <p>8. Em seguida, coloque as fatias de carne de porco, de kamaboko e acrescente a pimenta a gosto.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btnreceita" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="receitaOkonomiyaki" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 titulos" id="exampleModalLabel">Okonomiyaki</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5>Ingredientes</h5>
+                    <p>- 2 xícaras (chá) de farinha de trigo (220g) <br>
+                        - 1 e meia xícara (chá) de água (300ml) <br>
+                        - 2 pitadas de sal <br>
+                        - 4 ovos <br>
+                        - meio repolho médio cortado em cubos pequenos (380g) <br>
+                        - 1 colher (sopa) de fermento em pó <br>
+                        - 1 e meia colher (sopa) de óleo <br>
+                        - 6 fatias de bacon cortadas ao meio (180g) <br>
+                        - meia xícara (chá) de maionese (100g) <br>
+                        - 1 xícara (chá) de cebolinha-verde, em rodelas finas
+                    </p>
+
+                    <h5>Modo de preparo</h5>
+                    <p>1. Em uma tigela grande, coloque a farinha de trigo, a água, e o sal, e misture com um batedor manual de arame por 3 minutos, 
+                        ou até ficar homogêneo. Junte os ovos e o repolho, e mexa até envolver todo o repolho com a massa. Acrescente o fermento e misture.</p>
+                    <p>2. Em uma frigideira antiaderente pequena, coloque um fio do óleo e leve ao fogo médio para aquecer. Junte 1 xícara (chá) da massa e 
+                        espalhe de maneira uniforme. Deixe cozinhar por 4 minutos, ou até começar a dourar, as bordas soltarem e o centro estar cozido. Acomode 
+                        4 metades de fatias de bacon sobre a massa, pressione ligeiramente e, com o auxílio de uma espátula, vire a panqueca. Deixe cozinhar por
+                        mais 3 minutos, ou até dourar o outro lado.</p>
+                    <p>3. Transfira para uma travessa e mantenha aquecido. Repita o processo com o restante da massa, repondo o óleo quando necessário.</p>
+                    <p>4. Coloque a maionese em um saco plástico resistente e próprio para alimentos, e faça um pequeno corte em uma das pontas. 
+                        Decore cada panqueca com fios de maionese e, por cima, distribua a cebolinha-verde. Sirva em seguida.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btnreceita" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="receitaSushi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 titulos" id="exampleModalLabel">Sushi</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5>Ingredientes</h5>
+                    <p>- 4 xícaras de arroz japonês, encontrado em lojas especializadas <br>
+                        - 5 xícaras de água para cozimento <br>
+                        - 4 colheres de sopa de vinagre de arroz para sushi encontrado em lojas especializadas <br>
+                        - 1 pacote e algas desidratadas para enrolar nori <br>
+                        - 2 pepinos <br>
+                        - 2 cenouras <br>
+                        - Tirinhas de salmão <br>
+                        - Folhas de alface <br>
+                        <strong>Para o molho do arroz</strong><br>
+                        - 2 colheres de sopa de saquê doce mirin <br>
+                        - 4 colheres de chá de açúcar branco <br>
+                        - 2 colheres de chá de sal <br>
+                        - Wasabi em pasta se desejar <br>
+                    </p>
+
+                    <h5>Modo de preparo</h5>
+                    <p>1. Corte os pepinos e as cenouras em tiras e deixe em molho na água com uma pitada de sal.</p>
+                    <p>2. Faça o arroz temperado com o sal.</p>
+                    <p>3. Para o tempero do arroz misture tudo numa tigelinha ou copo.</p>
+                    <p>4. Transfira o arroz cozido para uma tigela grande.</p>
+                    <p>5. As poucos acrescente o molho de sushi, com a ajuda de uma colher de pau vire o arroz, sem mexer muito. Deixe esfriar.</p>
+                    <p>6. Forre a esteira para sushi com o plástico filme.</p>
+                    <p>7. Coloque folha de alga com a parte mais áspera para cima.</p>
+                    <p>8. Umedeça a palma das mãos para o arroz não grudar.</p>
+                    <p>9. Preencha a alga com uma camada de arroz de mais ou menos 1 cm uniformemente, comece pelo meio da alga e espalhe, lembrando sempre de deixar 1 cm de sobra da alga para ter uma finalização elegante.</p>
+                    <p>10. Após isso espalhe um um pouco de wassabi no centro do arroz de ponta a ponta, a quantidade e a gosto, lembrando que wassabi é forte, a quantidade de um grão de feijão é o suficiente, fica leve e dá um gostinho especial ao sushi.</p>
+                    <p>11. Coloque 1 tira de pepino, 1 de cenoura, 1 de salmão e 1 folha de alface.</p>
+                    <p>12. Enrole com o auxilio da esteira e com a ponta dos dedos como se fosse um rocambole, lembrando de tirar a esteira conforme a alga cola no arroz.</p>
+                    <p>13. No final passe um pouco de água na alga e cole na própria ficará perfeito.</p>
+                    <p>14. Mergulhe a faca no copo com água e corte em rolinhos em um único corte para não amassar o sushi, comece cortando pelo centro,assim eles ficarão da mesma altura.</p>
+                    <p>15. Coloque em uma travessa e decore a seu gosto.</p>
+                    <p>16. Servir com um pequeno prato de molho shoyu.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btnreceita" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="receitaYakiniku" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 titulos" id="exampleModalLabel">Yakiniku</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5>Ingredientes</h5>
+                    <p>- 500g de wagyu Cowpig em fatias <br>
+                        - Vegetais (sugestões): Cebola em rodelas/ Quiabo envolto em fatias de bacon/ Milho cozido em rodelas/ 
+                        Abóbora cabotchá em fatias/ Shiitake cortado meio ou em 4 partes/ Abobrinha em rodelas. <br>
+                        - Óleo vegetal (soja, milho, girassol ou canola)
+                    </p>
+                    <h5>Modo de preparo</h5>
+                    <p>Em uma grelha quente, coloque um pouco de óleo vegetal, disponha as fatias de wagyu e os vegetais, 
+                        com auxílio de uma pinça vire para dourar de ambos os lados. A medida que ficarem cozidos (mas ainda suculentos) 
+                        retire da grelha, banhe no molho e sirva acompanhado de uma cumbuca de arroz cozido japonês (gohan).
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btnreceita" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="receitaYakisoba" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 titulos" id="exampleModalLabel">Yakisoba</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5>Ingredientes</h5>
+                    <p>- 300g de macarrão para yakisoba <br>
+                       - 500g de filé de frango em cubos <br>
+                       - ½ brócolis em floretes <br>
+                       - ½ couve-flor em floretes <br>
+                       - 1 cenoura em tiras finas <br>
+                       - ¼ de repolho roxo em tiras finas <br>
+                       - 1 xícara (chá) de shoyu <br>
+                       - ½ xícara (chá) de água <br>
+                       - 1 colher (sopa) de óleo de gergelim torrado <br>
+                       - 2 colheres (chá) de maisena diluídas em 2 colheres (sopa) de água <br>
+                       - 2 colheres (sopa) de óleo vegetal <br>
+                       - Cebolinha picada a gosto
+                    </p>
+                    <h5>Modo de preparo</h5>
+                    <p>1. Prepare o macarrão conforme as instruções da embalagem, retirando 2 minutos antes do tempo indicado. Escorra, passe em água fria e reserve com um fio de óleo para evitar que grude.</p>
+                    <p>2. Em uma Panela, aqueça 1 colher (sopa) de óleo vegetal e grelhe os cubos de frango até dourarem. Retire e reserve.</p>
+                    <p>3. Na mesma panela, adicione mais 1 colher (sopa) de óleo vegetal e refogue a cenoura, brócolis e couve-flor por 2 a 3 minutos. Acrescente o repolho e refogue por mais 2 minutos, mantendo os vegetais levemente crocantes.</p>
+                    <p>4. Em um Bowl, misture o shoyu, a água, o óleo de gergelim e a maisena diluída.</p>
+                    <p>5. Retorne o frango à panela, adicione o macarrão e misture bem. Despeje o molho e mexa até engrossar levemente e envolver todos os ingredientes.</p>
+                    <p>6. Finalize com cebolinha picada e sirva imediatamente em um Bowl.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btnreceita" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="receitaTempura" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 titulos" id="exampleModalLabel">Tempura</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5>Ingredientes</h5>
+                    <p>- 1 xícara (chá) de cenoura ralada <br>
+                       - 1 xícara (chá) de cebolinha picada<br>
+                       - 1 xícara (chá) de cebola fatiada<br>
+                       - 2 xícaras (chá) de repolho picado<br>
+                       - 500g de camarão médio limpo (pode ser com a casca, porém sem cabeça) <br>
+                       <strong>Massa</strong> <br>
+                        - 2 xícaras (chá) de água gelada <br>
+                        - 1 xícara (chá) de farinha de trigo<br>
+                        - 1 colher (sobremesa) de sal <br>
+                        - 1 colher (café) rasa de fermento em pó <br>
+                        - 1 saquinho de tempero pronto (amarelo ou laranja) - opcional  
+                  </p>
+                    <h5>Modo de preparo</h5>
+                    <p>1. Em uma travessa grande misturar todos os ingredientes da massa. Misturar bem.</p>
+                    <p>2. Acrescente os legumes e o camarão.</p>
+                    <p>3. Aquecer bastante óleo em uma frigideira.</p>
+                    <p>4. Ir colocando pequenas porções no óleo quente.</p>
+                    <p>5. Deixe dourar de um lado e vire do outro.</p>
+                    <p>6. Retire do óleo quente e deixe escorrer em papel absorvente.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary btnreceita" data-bs-dismiss="modal">Fechar</button>

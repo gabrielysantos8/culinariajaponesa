@@ -84,3 +84,47 @@ header a{
 .modal-footer{
     background-color: rgba(39, 39, 39, 1) !important;
 }
+
+/* section cinza*/
+.secinza{
+    margin-top: 150px;
+    background-color: rgba(39, 39, 39, 1);
+    padding: 60px;
+}
+.btnguia{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(113, 23, 23, 1);
+    border-radius: 20px;
+    padding: 15px;;
+}
+.divbtnguia{
+    margin-top: 50px;
+}
+
+/*section curiosidades*/
+.securiosidades{
+    margin-top: 150px;
+}
+.text-rigth{
+    text-align: right;
+}
+.imgcurio{
+    width: 50%;
+}
+.imgright{
+    float: right;
+}
+.imgleft{
+    float: left;
+}
+.divcurio{
+    margin-top: 80px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: rgba(39, 39, 39, 1);
+    padding: 50px;
+    text-align: center;
+}

@@ -18,6 +18,14 @@ header a{
     font-weight: 700;
 }
 
+html{
+    scroll-behavior: smooth;
+  }
+  
+:target{
+    scroll-margin-top: 100px;
+}
+
 /* section banner */
 .banner{
     position: relative;
@@ -36,7 +44,7 @@ header a{
 
 /* section história */
 .sechis{
-    padding-top: 150px;
+    margin-top: 150px;
 }
 .divhis{
     background-color: rgba(113, 23, 23, 1);
@@ -56,10 +64,10 @@ header a{
 
 /* section pratos */
 .secpratos{
-    padding-top: 150px;
+    margin-top: 150px;
 }
 .divpratos{
-    padding-top: 50px;
+    padding-top: 25px;
 }
 .imgpratos{
     border-radius: 10px;
@@ -96,10 +104,25 @@ header a{
     color: white;
     background-color: rgba(113, 23, 23, 1);
     border-radius: 20px;
-    padding: 15px;;
+    padding: 15px;
 }
 .divbtnguia{
     margin-top: 50px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 proporção padrão do youtube*/
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /*section curiosidades*/
@@ -128,3 +151,34 @@ footer{
     padding: 50px;
     text-align: center;
 }
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 900px) {
+    .txtbanner {
+        position: static;
+        top: auto;
+        left: auto;
+        transform: none;
+        margin-top: 20px;
+        margin: 30px;
+    }
+    .his-row{
+        display: block !important;
+    }
+    .hiscol{
+        width: 100% !important;
+    }
+    .imghis{
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .row-cin{
+        display: block !important;
+    }
+    .col-cin{
+        width: 100% !important;
+    }
+
+}
+

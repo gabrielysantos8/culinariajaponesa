@@ -32,9 +32,14 @@ const observer = new IntersectionObserver(handleBackToTopVisibility, options);
 observer.observe(elementToObserve)
 
 // limpar a url e voltar pro top
-window.addEventListener("load", function () {
+window.addEventListener("load", () => {
     if (window.location.hash) {
-        history.replaceState(null, null, ' ');
         window.scrollTo(0, 0);
+
+        history.replaceState(
+            null,
+            null,
+            window.location.pathname + window.location.search
+        );
     }
 });
